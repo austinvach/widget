@@ -31,7 +31,6 @@
             {
               "url": "presentations/default.tpl"
             }
-        ],
-        "appliesTo": "${viewport.mode == 'HUB'}"
+        ]
     }
 }
