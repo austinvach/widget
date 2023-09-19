@@ -4,22 +4,40 @@
     "publishingInformation": {
         "schemaVersion": "1.0",
         "locales": {
-            "en-US": [{
-                "targetViewport": "WIDGET_M",
-                "metadata": {
-                    "name": "SPACE CAM",
-                    "description": "A widget featuring NASA's Astronomy Picture of the Day (APOD).",
-                    "keywords": [
-                        "NASA",
-                        "APOD",
-                        "Space"
-                    ],
-                    "iconUri": "https://user-images.githubusercontent.com/7928540/191887657-1c36a701-bb4c-481f-9b74-8da2fb83ca3b.png",
-                    "previews": [
-                        "https://user-images.githubusercontent.com/7928540/191887545-bc69e439-022f-45dd-ab02-3ec4d8e66394.png"
-                    ]
+            "en-US": [
+                {
+                    "targetViewport": "WIDGET_M",
+                    "metadata": {
+                        "name": "SPACE CAM",
+                        "description": "A widget featuring NASA's Astronomy Picture of the Day (APOD).",
+                        "keywords": [
+                            "NASA",
+                            "APOD",
+                            "Space"
+                        ],
+                        "iconUri": "https://user-images.githubusercontent.com/7928540/191887657-1c36a701-bb4c-481f-9b74-8da2fb83ca3b.png",
+                        "previews": [
+                            "https://user-images.githubusercontent.com/7928540/191887545-bc69e439-022f-45dd-ab02-3ec4d8e66394.png"
+                        ]
+                    }
+                },
+                {
+                    "targetViewport": "WIDGET_XS",
+                    "metadata": {
+                        "name": "SPACE CAM",
+                        "description": "A widget featuring NASA's Astronomy Picture of the Day (APOD).",
+                        "keywords": [
+                            "NASA",
+                            "APOD",
+                            "Space"
+                        ],
+                        "iconUri": "https://user-images.githubusercontent.com/7928540/191887657-1c36a701-bb4c-481f-9b74-8da2fb83ca3b.png",
+                        "previews": [
+                            "https://user-images.githubusercontent.com/7928540/191887545-bc69e439-022f-45dd-ab02-3ec4d8e66394.png"
+                        ]
+                    }
                 }
-            }]
+            ]
         }
     },
     "manifest": {
@@ -29,7 +47,7 @@
         "updateStateChanges": "INFORM",
         "presentationDefinitions": [
             {
-              "url": "presentations/default.tpl"
+                "url": "presentations/default.tpl"
             }
         ]
     }
